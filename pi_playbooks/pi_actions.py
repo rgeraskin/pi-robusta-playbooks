@@ -5,7 +5,7 @@ from robusta.api import MarkdownBlock, PrometheusKubernetesAlert, action
 def tag_tg_user(alert: PrometheusKubernetesAlert):
     users = {
         # back
-        "alexander.apostolov": "Aps",
+        "alexander.apostolov": "@zelAps",
         "p.kuzmin": "@pabel0071",
         # front
         "mrs4z1337": "@mrs4z",
