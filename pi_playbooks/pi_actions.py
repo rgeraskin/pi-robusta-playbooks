@@ -7,6 +7,7 @@ def tag_tg_user(alert: PrometheusKubernetesAlert):
         # back
         "alexander.apostolov": "@zelAps",
         "p.kuzmin": "@pabel0071",
+        "IlyaNikitin": "@ilia_nikitin_v",
         # front
         "tinymail8": "@Asolovev",
         "mrs4z1337": "@mrs4z",
