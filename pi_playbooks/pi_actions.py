@@ -14,11 +14,12 @@ def tag_tg_user(alert: PrometheusKubernetesAlert):
         "zhitenev.andr": "@kraavc",
         # other
         "rodionkislov": "@rodionkislov",
-        "rgeraskin": "@rgeraskin"
+        "rgeraskin": "@rgeraskin",
+        "w1ldy0uth": "@nevenoke",  # new developer
     }
 
     labels = alert.alert.labels
-    if "userUsername" in labels and labels['userUsername'] != "<no value>":
+    if "userUsername" in labels and labels["userUsername"] != "<no value>":
         if labels["userUsername"] in users:
             user_info = f"Commit author: {users[labels['userUsername']]}"
             alert.add_enrichment([MarkdownBlock(user_info)])
