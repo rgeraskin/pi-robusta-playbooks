@@ -15,7 +15,9 @@ def tag_tg_user(alert: PrometheusKubernetesAlert):
         # other
         "rodionkislov": "@rodionkislov",
         "rgeraskin": "@rgeraskin",
-        "w1ldy0uth": "@nevenoke",  # new developer
+        "w1ldy0uth": "@nevenoke",
+        "blunshtelega": "@blunshtelega",
+        "PredictorLQ": "@PredictorLQ",
     }
 
     labels = alert.alert.labels
